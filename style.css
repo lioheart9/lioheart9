@@ -1,0 +1,142 @@
+html, body,
+ul, ol, li,
+h1, h2, h3, h4, h5, h6, p, div {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Hiragino Kaku Gothic ProN W3', sans-serif;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+h1, h2, h3, p {
+  cursor: default;
+}
+
+.container {
+  width: 1000px;
+  margin: 0 auto;
+}
+
+header {
+  height: 65px;
+  background-color: rgba(34, 49, 52, 0.9);
+  color: white;
+  width: 100%;
+  position: fixed;
+  z-index: 10;
+}
+
+.header-logo {
+  float: left;
+  font-size: 31px;
+  margin: 9px 0;
+}
+
+.profile {
+  transition: all 0.5s;
+  color: white;
+  display: block;
+  float: right;
+  padding: 17px 17px;
+}
+
+.fa-user-circle {
+font-size: 31px;
+}
+
+.profile:hover {
+  background-color: rgba(255, 255, 255, 0.5)
+}
+
+.top-wrapper {
+  background-image: url(../img/background.jpg);
+  background-size: cover;
+  padding: 200px 0 180px 0;
+}
+
+.top-wrapper h1 {
+  color: white;
+  font-size: 60px;
+}
+
+.top-wrapper p {
+  color: white;
+  font-size: 20px;
+  opacity: 0.7;
+}
+
+.content-wrapper {
+  color: rgb(75, 75, 75);
+  padding: 80px 0;
+  border-bottom: 1px solid rgb(231, 231, 231);
+  background-image: url(../img/papyrus.png);
+}
+
+.title {
+  font-size: 25px;
+  padding-bottom: 10px;
+  border-bottom: 3px solid rgb(231, 231, 231);
+}
+
+.contents {
+  margin: 50px 0;
+  display: flex;
+  flex-wrap: wrap;
+  align-content: space-between;
+  justify-content: center;
+}
+
+.content-icon {
+  margin: 10px 5px;
+}
+
+.content-icon img {
+  width: 450px;
+  height: 280px;
+}
+
+.txt-content {
+display: flex;
+justify-content: space-around;
+align-items: center;
+width: 450px;
+height: 280px;
+margin: 10px 5px;
+}
+
+.txt-content h3 {
+  font-size: 25px;
+}
+
+.txt-content p {
+  opacity: 0.8;
+}
+
+.go a {
+  display: inline-block;
+  background-color: rgb(55, 55, 55);
+  color: white;
+  opacity: 0.7;
+  padding: 10px 20px;
+  border-radius: 23px;
+  transition: all 0.5s;
+}
+
+.go a:hover {
+  background-color: rgba(80, 80, 80, 0.7)
+}
+
+footer {
+  height: 30px;
+  color: rgb(211, 211, 211);
+  padding-top: 5px;
+}
