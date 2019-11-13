@@ -58,7 +58,7 @@ font-size: 31px;
 }
 
 .top-wrapper {
-  background-image: url(../img/background.jpg);
+  background-image: url(background.jpg);
   background-size: cover;
   padding: 200px 0 180px 0;
 }
